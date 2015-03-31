@@ -15,7 +15,7 @@
     <a href="https://plus.google.com/+{{ site.google_plus_id }}" rel="publisher"></a>
   </span>
   <ul class="nav navbar-nav">
-    <li><h1><a class="navbar-brand" href="{{ url_base }}/" itemprop="name">{{ site.name }}</a></h1></li>
+    <li id="title"><h1><a class="navbar-brand" href="{{ url_base }}/" itemprop="name">{{ site.name }}</a></h1></li>
     <li id="home"{% if page.url == '/index.html' %} class="active"{% endif %}>
       <a href="{{ url_base }}/">Posts</a>
     </li>

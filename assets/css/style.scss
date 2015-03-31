@@ -83,9 +83,11 @@ body { padding-top: 20px; font-size: 1.6em; font-weight: 200; }
 .navbar-brand { font-size: 20px; }
 @media (max-width: 768px) {
     .navbar .pull-right, .navbar-brand { text-align: center; float: none; width: 100%; }
-}
-@media (max-width: 768px) {
-    .navbar li { text-align: center;}
+    .navbar li { text-align: center; }
+    .nav li#title { display: block; width: 100%; margin-bottom: 10px; margin-left: 0; }
+    .nav > li { display: inline-block; width: 11%; margin-left: 5%; }
+    .nav > li > a { display: inline;  }
+    .navbar-text { font-size: .8em; margin-top: 5px; font-style: italic; }
 }
 @media (max-width: 1200px) {
   .nav { font-size: 0.9em; }
